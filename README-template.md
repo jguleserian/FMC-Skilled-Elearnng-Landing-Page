@@ -28,20 +28,20 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop-cropped](./starter-code/screenshots/screenshot-cropped.png)
-![Desktop-uncropped](./starter-code/screenshots/screenshot-uncropped.png)
-![Tablet-1](./starter-code/screenshots/screenshot-tablet1.png)
-![Tablet-2](./starter-code/screenshots/screenshot-tablet2.png)
-![Mobile-1](./starter-code/screenshots/screenshot-mobile1.png)
-![Mobile-2](./starter-code/screenshots/screenshot-mobile2.png)
-![Mobile-3](./starter-code/screenshots/screenshot-mobile3.png)
+![Desktop-cropped](./screenshots/screenshot-cropped.png)
+![Desktop-uncropped](./screenshots/screenshot-uncropped.png)
+![Tablet-1](./screenshots/screenshot-tablet1.png)
+![Tablet-2](./screenshots/screenshot-tablet2.png)
+![Mobile-1](./screenshots/screenshot-mobile1.png)
+![Mobile-2](./screenshots/screenshot-mobile2.png)
+![Mobile-3](./screenshots/screenshot-mobile3.png)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution on GitHub](https://github.com/jguleserian/FMC-Skilled-Elearnng-Landing-Page)
+- Live Site URL: [GitHub Pages](https://your-live-site-url.com)
 
 ## My process
 
