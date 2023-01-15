@@ -1,88 +1,83 @@
-# Frontend Mentor - Skilled e-learning landing page
+# Frontend Mentor - Skilled e-learning landing page solution
 
-![Design preview for the Skilled e-learning landing page coding challenge](./preview.jpg)
+This is a solution to the [Skilled e-learning landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q).
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for purchasing this premium Frontend Mentor coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects. These premium challenges are perfect portfolio pieces, so please feel free to use what you create in your portfolio to show others.
 
-**To do this challenge, you need a decent understanding of HTML and CSS.**
+## Overview
 
-## The challenge
+### The challenge
 
-Your challenge is to build out this landing page and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to:
+Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+### Screenshot
 
-## Where to find everything
+![Desktop-cropped](./screenshots/screenshot-cropped.png)
+![Desktop-uncropped](./screenshots/screenshot-uncropped.png)
+![Tablet-1](./screenshots/screenshot-tablet1.png)
+![Tablet-2](./screenshots/screenshot-tablet2.png)
+![Mobile-1](./screenshots/screenshot-mobile1.png)
+![Mobile-2](./screenshots/screenshot-mobile2.png)
+![Mobile-3](./screenshots/screenshot-mobile3.png)
 
-Your task is to build out the project to the design file provided. We provide both Sketch and Figma versions of the design, so you can choose which tool you prefer to use. You can download the design file on the platform. **Please be sure not to share them with anyone else.** The design download comes with a `README.md` file as well to help you get set up.
 
-All the required assets for this project are in the `/assets` folder. The assets are already exported for the correct screen size and optimized. Some images are reusable at multiple screen sizes, some are for specific layouts. We also include WEBP and PNG versions and different resolutions of the hero image, so you can choose to use whichever format and resolution you like or even look into letting the browser choose which image to use based on specific conditions. For this, you can look into [responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) to learn more.
 
-The design system in the design file will give you more information about the various colors, fonts, and styles used in this project. Our fonts always come from [Google Fonts](https://fonts.google.com/).
+### Links
 
-## Building your project
+- Solution URL: [Solution on GitHub](https://github.com/jguleserian/FMC-Skilled-Elearnng-Landing-Page)
+- Live Site URL: [GitHub Pages](https://jguleserian.github.io/FMC-Skilled-Elearnng-Landing-Page/index.html)
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+## My process
 
-1. Separate the `starter-code` from the rest of this project and rename it to something meaningful for you. Initialize the codebase as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/). **⚠️ IMPORTANT ⚠️: There are already a couple of `.gitignore` files in this project. Please do not remove them or change the content of the files. If you create a brand new project, please use the `.gitignore` files provided in your new codebase. This is to avoid the accidental upload of the design files to GitHub. With these premium challenges, please be sure not to share the design files in your GitHub repo. Thanks!**
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+### Built with
 
-## Deploying your project
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Responsive Design
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+### What I learned
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+While building the initial project did not take a lot of time, the project ended up being quite a challenge. Some of these reasons are detailed below, but in short, working with multiple media queries and keeping track of where I am in the code (what section) led to copious errors and rewriting. Nevertheless, I learned a great deal of new things and honed some other skills.
 
-## Create a custom `README.md`
+In terms of conceptual/procedural development, what I picked up from this project include:
+1. When listing the @media, you must start with the larger screen first, and leave the mobile for the bottom.
+2. Developer tools: device emulation (awesome!!!), utilizing the style guides/overlays for the box model. 
+3. One needs to be careful with longer style sheets. Always be careful to identify which part of the code one is changing or building. Many time I found I had changed something in the @media for the tablet section when I should have been in the mobile section. Mistakes like this cost a lot of time.
+4. While setting the initial style for the css, especially when altering containers, it is helpful to put a 1px border around everythning to see how it one subsumes the other. Of course, when the dimensions are tight, the border may have to be taken off to ensure the font wraps correctly.
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+### Continued development
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+While I am anxious to try something more challenging, I think I want to try one more small project. After that, I would like to try a small project, or 2, incorporating Javascript and JQuery. Once I feel more comfortable with using vanilla JS, I would like to incorporate a project as part of an interface for Node, maybe in conjunction with a simple API.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+## Author
 
-## Submitting your solution
+Jeff Guleserian
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+- GitHub - [Jeff Guleserian on GitHub](https://github.com/jguleserian)
+- Frontend Mentor - [@jguleserian](https://www.frontendmentor.io/profile/jguleserian)
+- LinkedIn - [@yourusername](https://www.linked.com/jeffguleserian)
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
 
-**⚠️ IMPORTANT ⚠️: With these premium challenges, please be sure not to upload the design files to GitHub when you're submitting to the platform and sharing it around. If you've created a brand new project, the easiest way to do that is to copy across the `.gitignore` provided in this starter project.**
+## Acknowledgments
 
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-**Have fun building!** 🚀
+Again, thank you for all my peer mentors out there who have given me pointers along the way and spurred me on to improve.
